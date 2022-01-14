@@ -28,9 +28,9 @@ Bitbucket allows a lot of customization for the actions to prevent by branch pro
 - Changes without a pull request - prevents pushing changes directly to the specified branch(es); changes are allowed only with a pull request.
 
 - All modifications - prevents pushes to the specified branch(es) and restricts creating new branches matching the specified branch(es) or pattern.
-```
-Optional: Add exemptions for any of the selected restrictions. Adding a user or group as an exemption means that it will not apply to them. This is not required; not adding any exemptions means the restriction will apply to everyone.
-```
+
+>Optional: Add exemptions for any of the selected restrictions. Adding a user or group as an exemption means that it will not apply to them. This is not required; not adding any exemptions means the restriction will apply to everyone.
+
 - Click Create to finish.
 
 Source visit: https://confluence.atlassian.com/bitbucketserver/using-branch-permissions-776639807.html
